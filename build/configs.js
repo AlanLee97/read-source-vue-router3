@@ -80,6 +80,7 @@ function genConfig (opts) {
       external: ['vue']
     },
     output: {
+      sourcemap: true,
       file: opts.file,
       format: opts.format,
       banner,
