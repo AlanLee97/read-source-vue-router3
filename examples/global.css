@@ -12,6 +12,14 @@ ul {
   padding-left: 1.5em;
 }
 
+ul li {
+  cursor: pointer;
+}
+
+ul li:hover {
+  color: #4fc08d;
+}
+
 a {
   color: #7f8c8d;
   text-decoration: none;
@@ -19,4 +27,13 @@ a {
 
 a:hover {
   color: #4fc08d;
+}
+
+.router-view {
+  padding: 20px;
+  border: 1px solid red;
+}
+
+.disabled {
+  cursor: not-allowed;
 }
